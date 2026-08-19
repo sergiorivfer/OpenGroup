@@ -1,0 +1,74 @@
+{
+    "posts": [
+        {
+            "slug": "como-migrar-a-la-nube-sin-detener-la-operacion-metodologia-open-group",
+            "title": "Cómo migrar a la nube sin detener su operación: la metodología de Open Group",
+            "excerpt": "Migrar a la nube sin detener la operación es posible con una metodología por fases: diagnóstico, diseño, migración, seguridad y gestión continua. Así lo hace Open Group.",
+            "author": "Open Group",
+            "date": "2026-08-04",
+            "status": "published",
+            "featured_image": "\/assets\/img\/blog\/20260804-033146-a471e38a.jpg",
+            "category": "MultiCloud"
+        },
+        {
+            "slug": "guia-infraestructura-de-nube-colombia-2026",
+            "title": "Infraestructura de Nube en Colombia: Guía 2026",
+            "excerpt": "¿Qué es, cuánto cuesta y cómo elegir infraestructura de nube en Colombia? Open Group, con más de 17 años de experiencia, responde con datos y criterio.",
+            "author": "Open Group",
+            "date": "2026-08-04",
+            "status": "published",
+            "featured_image": "\/assets\/img\/blog\/20260804-010939-1fa8de1a.jpg",
+            "category": "MultiCloud"
+        },
+        {
+            "slug": "cuanto-cuesta-migrar-a-la-nube-en-colombia",
+            "title": "¿Cuánto cuesta migrar a la nube en Colombia?",
+            "excerpt": "Migrar a la nube en Colombia cuesta desde unos pocos millones para una PyME; la clave no es el precio inicial sino la estrategia para optimizar el gasto.",
+            "author": "Open Group",
+            "date": "2026-08-04",
+            "status": "published",
+            "featured_image": "\/assets\/img\/blog\/20260804-033144-d05d2629.jpg",
+            "category": "MultiCloud"
+        },
+        {
+            "slug": "multicloud-vs-una-sola-nube-cual-elegir",
+            "title": "MultiCloud vs una sola nube: ¿cuál elegir para su empresa?",
+            "excerpt": "MultiCloud reduce dependencias y optimiza costos, pero exige más gestión. Le explicamos cuándo conviene cada estrategia y cómo decidir con criterio.",
+            "author": "Open Group",
+            "date": "2026-08-04",
+            "status": "published",
+            "featured_image": "\/assets\/img\/blog\/20260804-033232-f05b1541.jpg",
+            "category": "MultiCloud"
+        },
+        {
+            "slug": "comunicaciones-unificadas-cmo-integrar-voz-video-y-colaboracin-en-un-solo-ecosistema-corporativo",
+            "title": "Comunicaciones unificadas: Cómo integrar voz, video y colaboración en un solo ecosistema corporativo",
+            "excerpt": "\r\n\r\nLa saturaci&oacute;n de plataformas desconectadas (mensajer&iacute;a por un lado, telefon&iacute;a por otro y videoconferencias por aparte) genera cuellos de botella e ineficiencia. Este art&iacut...",
+            "author": "Open Group",
+            "date": "2026-08-04",
+            "status": "published",
+            "featured_image": "\/assets\/img\/blog\/20260804-202405-72a2e093.jpg",
+            "category": "Comunicaciones"
+        },
+        {
+            "slug": "estaciones-de-trabajo-inteligentes-la-clave-para-la-productividad-sin-comprometer-la-seguridad",
+            "title": "Estaciones de trabajo inteligentes: La clave para la productividad sin comprometer la seguridad",
+            "excerpt": "\r\n\r\n\r\nResumen: El modelo de trabajo flexible exige que cualquier empleado pueda conectarse desde cualquier dispositivo y lugar, pero de forma segura y eficiente. Aqu&iacute; se explica c&oacute;mo la ...",
+            "author": "Open Group",
+            "date": "2026-08-04",
+            "status": "published",
+            "featured_image": "\/assets\/img\/blog\/20260804-034404-5cfe3660.jpg",
+            "category": "Infraestructura"
+        },
+        {
+            "slug": "cmo-domar-la-complejidad-y-los-costos-de-una-estrategia-multicloud-empresarial",
+            "title": "Cómo domar la complejidad (y los costos) de una estrategia MultiCloud empresarial",
+            "excerpt": "\r\n\r\n\r\nEnfoque B2B: Dirigido a L&iacute;deres de Infraestructura y Finanzas (CFO\/CIO).\r\n\r\n\r\nResumen: Migrar a la nube no es solo mover servidores; el verdadero reto radica en orquestar entornos h&iacut...",
+            "author": "Open Group",
+            "date": "2026-08-04",
+            "status": "published",
+            "featured_image": "\/assets\/img\/blog\/20260804-034048-0d9d49d8.jpg",
+            "category": "Infraestructura"
+        }
+    ]
+}

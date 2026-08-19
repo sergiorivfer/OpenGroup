@@ -1,0 +1,24 @@
+/* === Layout general del sitio === */
+
+    body {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    /* Limitar el ancho máximo para pantallas grandes */
+    @media (min-width: 1400px) {
+    body {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    }
+
+    /* Ajustes para pantallas pequeñas */
+    @media (max-width: 768px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    }

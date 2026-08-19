@@ -1,0 +1,27 @@
+# Open Group S.A.S
+> Soluciones TIC para empresas en Colombia. Más de 17 años integrando tecnología, ciberseguridad y cloud para PyMEs y grandes empresas.
+
+## Servicios principales
+- [Ciberseguridad](https://www.opengroupsa.com/ciberseguridad): SOC 24/7, Zero Trust, monitoreo continuo, respuesta a incidentes.
+- [MultiCloud](https://www.opengroupsa.com/multicloud): Orquestación, optimización de costos, migración entre nubes (AWS, Azure, GCP).
+- [Estaciones Inteligentes](https://www.opengroupsa.com/trabajos-inteligentes): Gestión y seguridad de endpoints, despliegue automatizado.
+- [Centro de Servicios](https://www.opengroupsa.com/centro-servicios): Mesa de ayuda 24/7, SLAs, soporte multi-nivel.
+- [Comunicaciones Avanzadas](https://www.opengroupsa.com/comunicaciones): Voz IP, videoconferencia, colaboración unificada.
+
+## Oficinas
+- **Bogotá:** Av. Cra 45 #108-27, Centro Empresarial Paralelo 108, Torre 2, Oficina 504
+- **Cali:** Av. 8va Norte #23-89
+- **Teléfono:** (+57) 602 486 8080
+- **WhatsApp:** (+57) 333 602 6020
+
+## Horario
+Lunes a Viernes, 8:00 AM - 6:00 PM (GMT-5)
+
+## Redes sociales
+- [LinkedIn](https://www.linkedin.com/company/open-group-s-a-s/)
+- [Facebook](https://www.facebook.com/opengroupsa)
+- [X (Twitter)](https://x.com/opengroupsa)
+- [YouTube](https://www.youtube.com/channel/UCKzWt6TgT9pLbIcPyKODWrQ)
+
+## Sobre Open Group
+Open Group S.A.S es una empresa colombiana con más de 17 años de experiencia integrando soluciones TIC. Somos partners de Dell, Microsoft, Fortinet, VMware y otros líderes tecnológicos. Atendemos sectores: financiero, salud, gobierno, educación, manufactura, call centers y servicios.

@@ -1,0 +1,114 @@
+<!-- ============================================================
+     MENU PRINCIPAL - OpenGroup (refactor 2026)
+     Estilo eventos.opengroupsa.com · scroll nativo
+     ============================================================ -->
+
+<header class="ogm-header" id="ogmHeader">
+    <div class="ogm-header__inner">
+
+        <!-- Logo -->
+        <a href="/" class="ogm-header__logo" aria-label="OpenGroup - Ir al inicio">
+            <img class="ogm-logo ogm-logo__dark" src="assets/img/logo/logos/Logo Verde y Blanco (1).png" alt="OpenGroup">
+            <img class="ogm-logo ogm-logo__light" src="assets/img/logo/logos/logo-3.webp" alt="OpenGroup">
+        </a>
+
+        <!-- Nav escritorio -->
+        <nav class="ogm-nav" aria-label="Navegación principal">
+            <ul class="ogm-nav__list">
+                <li><a href="nosotros">Nuestra Historia</a></li>
+                <li class="ogm-nav__dropdown">
+                    <a href="soluciones">
+                        Soluciones
+                        <i class="fa-regular fa-chevron-down ogm-chevron"></i>
+                    </a>
+                    <ul class="ogm-dropdown">
+                        <li><a href="multicloud">MultiCloud</a></li>
+                        <li><a href="ciberseguridad">Ciberseguridad</a></li>
+                        <li><a href="comunicaciones">Comunicaciones Avanzadas</a></li>
+                        <li><a href="trabajos-inteligentes">Espacios de Trabajo Inteligentes</a></li>
+                        <li><a href="digitalizacion-procesos-de-negocio">Digitalización de Procesos de Negocio</a></li>
+                    </ul>
+                </li>
+                <li><a href="centro-servicios">Servicios</a></li>
+                <li><a href="blog/">Blog</a></li>
+                <li><a href="trabaja-con-nosotros">Trabaja con nosotros</a></li>
+                <li><a href="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Acciones -->
+        <div class="ogm-actions">
+            <button class="ogm-sidebar-toggle" id="ogmSidebarToggle" aria-label="Abrir menú lateral">
+                <svg width="20" height="19" viewBox="0 0 24 23" fill="none">
+                    <path d="M0.3 0h5v5h-5V0ZM0.3 9h5v5h-5V9ZM0.3 18h5v5h-5v-5ZM9.3 0h5v5h-5V0ZM9.3 9h5v5h-5V9ZM9.3 18h5v5h-5v-5ZM18.3 0h5v5h-5V0ZM18.3 9h5v5h-5V9ZM18.3 18h5v5h-5v-5Z" fill="currentColor"/>
+                </svg>
+            </button>
+
+            <button class="ogm-mobile-toggle" id="ogmMobileToggle" aria-label="Abrir menú móvil">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+    </div>
+</header>
+
+<!-- Overlay -->
+<div class="ogm-overlay" id="ogmOverlay"></div>
+
+<!-- Sidebar -->
+<aside class="ogm-sidebar" id="ogmSidebar" aria-label="Menú lateral">
+    <button class="ogm-sidebar__close" id="ogmSidebarClose" aria-label="Cerrar menú">
+        <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+            <path d="M1 1L17 17M17 1L1 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </button>
+
+    <div class="ogm-sidebar__content">
+        <div class="ogm-sidebar__logo">
+            <img class="ogm-logo ogm-logo__dark" src="assets/img/logo/logos/Logo Verde y Blanco (1).png" alt="OpenGroup">
+            <img class="ogm-logo ogm-logo__light" src="assets/img/logo/logos/logo-3.webp" alt="OpenGroup">
+        </div>
+
+        <nav class="ogm-sidebar__nav">
+            <ul>
+                <li><a href="/"><span class="ogm-sidebar__icon"><i class="fa-light fa-house"></i></span>Inicio</a></li>
+                <li><a href="nosotros"><span class="ogm-sidebar__icon"><i class="fa-light fa-building"></i></span>Nuestra Historia</a></li>
+                <li><a href="trabaja-con-nosotros"><span class="ogm-sidebar__icon"><i class="fa-light fa-briefcase"></i></span>Trabaja con nosotros</a></li>
+                <li class="ogm-sidebar__dropdown">
+                    <a href="soluciones.html">
+                        <span class="ogm-sidebar__icon"><i class="fa-light fa-layer-group"></i></span>
+                        Soluciones
+                        <i class="fa-regular fa-chevron-down ogm-chevron"></i>
+                    </a>
+                    <ul class="ogm-sidebar__sub">
+                        <li><a href="multicloud"><span class="ogm-sidebar__icon"><i class="fa-light fa-cloud"></i></span>Multicloud</a></li>
+                        <li><a href="ciberseguridad"><span class="ogm-sidebar__icon"><i class="fa-light fa-shield"></i></span>Ciberseguridad</a></li>
+                        <li><a href="comunicaciones"><span class="ogm-sidebar__icon"><i class="fa-light fa-phone"></i></span>Comunicaciones Avanzadas</a></li>
+                        <li><a href="trabajos-inteligentes"><span class="ogm-sidebar__icon"><i class="fa-light fa-display"></i></span>Espacios de Trabajo Inteligentes</a></li>
+                        <li><a href="digitalizacion-procesos-de-negocio"><span class="ogm-sidebar__icon"><i class="fa-light fa-chart-line"></i></span>Digitalización de Procesos de Negocio</a></li>
+                        <li><a href="centro-servicios"><span class="ogm-sidebar__icon"><i class="fa-light fa-headset"></i></span>Centro de Servicios</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="blog/">
+                        <span class="ogm-sidebar__icon"><i class="fa-light fa-newspaper"></i></span>
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="admin/">
+                        <span class="ogm-sidebar__icon"><i class="fa-light fa-lock"></i></span>
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="contacto" class="ogm-sidebar__cta">
+            <i class="fa-light fa-envelope"></i>
+            Contacto
+        </a>
+    </div>
+</aside>

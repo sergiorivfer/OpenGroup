@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /sitemap.xml
+
+Disallow: /error
+Disallow: /PHPMailer/
+Disallow: /archivos/
+Disallow: /eventos.opengroupsa.com/
+
+# Content Signals for AI agents
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+# Sitemap
+Sitemap: https://www.opengroupsa.com/sitemap.xml
+Sitemap: https://www.opengroupsa.com/blog/sitemap.php

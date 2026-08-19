@@ -1,0 +1,294 @@
+
+
+[data-theme="dark"]{
+    .header-16 .primary-header .primary-header-inner {
+        background: #02050A;
+    }
+    .hero-section-16__area .social-sidebar .follow-text {
+        color: var(--rr-color-common-white);
+    }
+    .hero-section-16__area .social-sidebar .line {
+        background: rgb(255 255 255 / 30%);
+    }
+    .hero-section-16__area .social-sidebar .social-links li a {
+        color: var(--rr-color-common-white);
+    }
+    .highlight-section-16__content .decs {
+        color: var(--rr-color-common-white);
+    }
+    .highlight-section-16__content {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .highlight-section-16__wrapper {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        background: #02050A;
+    }
+    .header .primary-header-inner .header-menu-wrap ul li.active-16 ul li a {
+        color: var(--rr-color-common-white);
+    }
+    .about-section-16__info .sub-title {
+        color: var(--rr-color-common-white);
+    }
+    .about-section-16__info .title {
+        color: var(--rr-color-common-white);
+    }
+    .about-section-16__info .decs {
+        color: var(--rr-color-common-white);
+    }
+    .about-section-16__btn .work {
+        color: var(--rr-color-common-white);
+    }
+    .about-section-16__counter-2 .counters-item .decs {
+        color: var(--rr-color-common-white);
+    }
+    .about-section-16__counter-2 .counters-item .title {
+        color: var(--rr-color-common-white);
+    }
+    .about-section-16__counter-2 .counters-item .title span {
+        color: var(--rr-color-common-white);
+    }
+    .explore-16-content .decs{
+        color: var(--rr-color-common-white);
+    }
+    .explore-16-content .name{
+        color: var(--rr-color-common-white);
+    }
+    .explore-16-content .title{
+        color: var(--rr-color-common-white);
+    }
+    .explore-16-content{
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .explore-16-item{
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .project-section-16__area .section-heading-16 .title{
+        color: var(--rr-color-common-white);
+    }
+    .project-section-16__area .swiper-arrow .swiper-nav{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .project-section-16__area .swiper-arrow .swiper-nav i{
+         color: var(--rr-color-common-white);
+    }
+    .project-section-16__area .swiper-arrow .swiper-nav-right{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .project-section-16__area .swiper-arrow .swiper-nav-right i{
+        color: #fff;
+    }
+    .testimonial-section-16-area{
+        background: #02050A;
+    }
+    .testimonial-section-16-card{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .testimonial-section-16-heading .title{
+        color: var(--rr-color-common-white);
+    }
+    .testimonial-section-16-card .Reviews span{
+        color: var(--rr-color-common-white);
+    }
+    .testimonial-section-16-card .rating span{
+        color: var(--rr-color-common-white);
+    }
+    .testimonial-section-16-card .swiper-arrow .swiper-nav-right{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .testimonial-section-16-card .swiper-arrow .swiper-nav-right i{
+        color: var(--rr-color-common-white);
+    }
+    .testimonial-section-16-card .swiper-arrow .swiper-nav{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .testimonial-section-16-card .swiper-arrow .swiper-nav i{
+        color: var(--rr-color-common-white);
+    }
+    .section-heading-16 .title{
+        color: var(--rr-color-common-white);
+    }
+    .blog-section-16__content .title{
+        color: var(--rr-color-common-white);
+    }
+    .blog-section-16__content .title a{
+        color: var(--rr-color-common-white);
+            background: linear-gradient(#fff 0%, #fff 98%);
+            background-size: 0 2px;
+            background-repeat: no-repeat;
+            background-position: left 100%;
+            color: var(--rr-color-common-white);
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                color: var(--rr-color-common-white);
+                background-size: 100% 2px;
+            }
+    }
+    .blog-section-16__meta .avatar span strong{
+        color: rgb(255 255 255 / 80%);
+    }
+    .blog-section-16__meta .date span{
+        color: #02050A;
+    }
+    .section-heading-16 .sub-title{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .team-section-16__name{
+        color: var(--rr-color-common-white);
+    }
+    .team-section-16__position{
+        color: rgb(255 255 255 / 80%);
+    }
+    .header .primary-header-inner .header-menu-wrap ul li.active-16.menu-item-has-children:after{
+        color: var(--rr-color-theme-primary);
+    }
+    .header .primary-header-inner .header-menu-wrap ul li.active-16 ul li a:hover{
+        color: var(--rr-color-theme-primary);
+    }
+    .header-16 .primary-header .primary-header-inner .header-right .sidebar-trigger{
+        border-radius: 50%;
+    }
+    .header-18 .primary-header-inner .header-menu-wrap ul li a{
+        color: var(--rr-color-common-white);
+    }
+    .header-17 .primary-header .primary-header-inner .header-right .sidebar-trigger{
+        border-radius: 50%;
+    }
+    .header-19 .primary-header .primary-header-inner{
+        background: inherit;
+    }
+   .header-19 .primary-header-inner .header-right-wrap .header-right .sidebar-trigger {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        background: inherit;
+    }
+    .about-section-19__info .sub-title{
+        color: var(--rr-color-common-white);
+    }
+    .about-section-19__info .title{
+        color: var(--rr-color-common-white);
+    }
+    .about-section-19__wrapper{
+        background: #02050A;
+    }
+    .about-section-19__content .decs{
+        color: #74787C;
+    }
+    .section-heading-19__info .sub-title{
+        color: var(--rr-color-common-white);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .section-heading-19__info .decs{
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .portfolio-section-19__wrapper{
+        background: #02050A;
+    }
+    .service-section-19-content-box .title{
+        color: #74787C;
+        
+    }
+    .service-section-19-content-box .content:hover .title a{
+        color: var(--rr-color-common-white);
+    }
+    .service-section-19-item-wrapper .number h3{
+        color: var(--rr-color-common-white);
+    }
+    .service-section-19-wrapper{
+        background: #02050A;
+    }
+    .testimonial-section-19__content .decs{
+        color: var(--rr-color-common-white);
+    }
+    .testimonial-section-19__content .name{
+        color: var(--rr-color-common-white);
+    }
+    .testimonial-section-19__content span{
+        color: #74787C;
+    }
+    .testimonial-section-19__wrapper{
+        background: #02050A;
+    }
+    .team-section-19__wrapper{
+        background: #02050A;
+    }
+    .blog-section-19__wrapper{
+        background: #02050A;
+    }
+    .blog-section-19__content .title{
+        color: var(--rr-color-common-white);
+    }
+    .blog-section-19__content .date h3{
+        color: #74787C;
+    }
+    .blog-section-19__content .date h3 span{
+        color: var(--rr-color-common-white);
+    }
+    .header-18.fixed{
+        background-color: transparent;
+        border: none;
+        background: #02050A;
+    }
+    .header-18 .primary-header-inner .header-right-wrap .header-right .sidebar-trigger{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        background: inherit;
+    }
+    .header-19 .primary-header-inner .header-right-wrap .header-right .sidebar-trigger{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        background: inherit;
+    }
+    .header-18 .primary-header-inner .header-menu-wrap ul li.menu-item-has-children:after,
+    .header-18 .primary-header-inner .header-menu-wrap ul li.active a,
+    .header-18 .primary-header-inner .header-menu-wrap ul li a{
+        color: var(--rr-color-common-white);
+    }
+    .testimonial-section-16-wrapper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background: var(--rr-color-theme-primary);
+    }
+    .header .primary-header-inner .header-menu-wrap ul li a:hover {
+        color: var(--rr-color-theme-primary);
+    }
+    .header-19.fixed{
+        background-color: transparent;
+        border: none;
+        background: #02050A;
+    }
+    .header-19 .primary-header-inner .header-menu-wrap ul li a{
+        color: var(--rr-color-common-white);
+    }
+    .service-section-19-content-box .content-2 .title{
+        border-bottom: 5px solid #74787C;
+    }
+    .service-section-19-content-box .content-2:hover .title{
+        color: var(--rr-color-common-white);
+        border-bottom: 5px solid #FFFF;
+    }
+    .header-16 .primary-header .primary-header-inner .header-right .sidebar-trigger{
+        background: inherit;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .about-section-16__area{
+        background: #02050A;
+    }
+    .team-section-16__area{
+        background: #02050A;
+    }
+    .client-section-16-area{
+        background: #02050A;
+    }
+    .blog-section-16__area{
+        background: #02050A;
+    }
+    .project-section-16__area{
+        background: #02050A;
+    }
+    .header-18 .primary-header-inner .header-menu-wrap ul li.active a{
+        color: var(--rr-color-theme-primary);
+    }
+    .about-section-16-img-box .img-2{
+        border: 10px solid #02050A;
+    }
+
+}

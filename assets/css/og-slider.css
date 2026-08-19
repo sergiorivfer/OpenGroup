@@ -1,0 +1,280 @@
+/* ======================================
+   OG-SLIDER.CSS — Hero slider vanilla
+   Misma apariencia, menos peso
+   ====================================== */
+
+/* ─── Slider Section ─── */
+.og-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.og-slider__track {
+  position: relative;
+}
+
+.og-slider__slide {
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+
+.og-slider__slide.is-active {
+  display: block;
+}
+
+.og-slider__overlay {
+  background: #0e0e14;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .73;
+  z-index: 1;
+}
+
+.og-slider__img-wrap {
+  height: 960px;
+}
+
+.og-slider__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Ken Burns animation */
+.og-slider__slide.is-active .og-slider__img {
+  animation: ogKenburns 20s ease-out forwards;
+}
+
+@keyframes ogKenburns {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
+}
+
+/* ─── Content ─── */
+.og-slider__content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 10;
+}
+
+.og-slider__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17%;
+}
+
+.og-slider__text {
+  padding: 0;
+  margin-left: 3em;
+}
+
+/* ─── Title gradient (green glow) ─── */
+.og-slider__title {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.og-slider__title::before {
+  content: '';
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.95;
+  background: linear-gradient(90deg, rgba(115,189,30,1) 0px, rgba(115,189,30,0) 100%);
+  border-radius: 50em;
+  pointer-events: none;
+}
+
+/* Light mode: softer green */
+[data-theme="light"] .og-slider__title::before {
+  background: linear-gradient(90deg, rgba(115,189,30,.7) 0px, rgba(115,189,30,0) 100%);
+}
+
+/* ─── Light mode: overlay difuminado para legibilidad ─── */
+[data-theme="light"] .og-slider__overlay {
+  background: linear-gradient(135deg, rgba(255,255,255,.95) 0%, rgba(230,232,240,.85) 50%, rgba(200,205,215,.6) 100%);
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+[data-theme="light"] .og-slider__sub,
+[data-theme="light"] .og-slider__desc {
+  color: #1e293b;
+}
+
+.og-slider__slide.is-active .og-slider__title {
+  animation: ogFadeUp .8s ease forwards;
+  animation-delay: .5s;
+}
+
+/* ─── Subtitle ─── */
+.og-slider__sub {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.og-slider__slide.is-active .og-slider__sub {
+  animation: ogFadeUp .8s ease forwards;
+  animation-delay: .3s;
+}
+
+/* ─── Description paragraph ─── */
+.og-slider__desc {
+  font-size: 20px;
+  color: rgba(255,255,255,.85);
+  margin-bottom: 25px;
+  max-width: 600px;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.og-slider__slide.is-active .og-slider__desc {
+  animation: ogFadeUp .8s ease forwards;
+  animation-delay: .7s;
+}
+
+/* ─── CTA Button ─── */
+.og-slider__btn {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.og-slider__slide.is-active .og-slider__btn {
+  animation: ogFadeUp .8s ease forwards;
+  animation-delay: .9s;
+}
+
+@keyframes ogFadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Tab Navigation ─── */
+.og-slider__tabs {
+  position: absolute;
+  bottom: 80px;
+  left: 250px;
+  z-index: 2;
+  max-width: 750px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.og-slider__tab {
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.08);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 30px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2em;
+  color: #9396df;
+  transition: all .3s ease;
+  font-family: inherit;
+}
+
+.og-slider__tab.is-active {
+  background: #fff;
+  color: #73bd1e;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 1600px) {
+  .og-slider__tabs {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 992px) {
+  .og-slider__img-wrap { height: 550px; }
+  .og-slider__inner { margin-bottom: 170px; }
+  .og-slider__title { font-size: 38px; }
+  .og-slider__sub { font-size: 28px; }
+}
+
+@media (max-width: 767px) {
+  .og-slider__img-wrap { height: 450px; }
+  .og-slider__tabs { display: none; }
+  .og-slider__inner { flex-wrap: wrap; row-gap: 25px; margin-bottom: 0; }
+  .og-slider__text { margin-left: 1em; }
+  .og-slider__title { font-size: 29px; }
+  .og-slider__sub { font-size: 22px; }
+  .og-slider__desc { font-size: 15px; }
+  .og-slider__content { top: 50%; }
+}
+
+/* Mobile responsive improvements */
+@media (max-width: 575.98px) {
+  .og-slider__img-wrap { height: 100vh; min-height: 500px; }
+  .og-slider__content {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .og-slider__inner {
+    padding-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .og-slider__text {
+    padding: 0 12px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+  }
+  .og-slider__sub {
+    font-size: clamp(16px, 5vw, 22px);
+    line-height: 1.2;
+    margin-bottom: 4px;
+  }
+  .og-slider__title {
+    font-size: clamp(24px, 8vw, 32px);
+    line-height: 1.1;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .og-slider__desc {
+    font-size: clamp(13px, 3.8vw, 15px);
+    line-height: 1.4;
+    margin: 6px auto 12px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .og-slider__btn {
+    text-align: center;
+    margin-top: 4px;
+  }
+  .og-slider__btn .rr-primary-btn {
+    font-size: 13px;
+    padding: 10px 24px;
+  }
+}

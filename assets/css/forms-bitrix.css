@@ -1,0 +1,304 @@
+﻿/* =============================================
+   forms-bitrix.css
+   Estilos personalizados para formularios Bitrix24
+   Tema oscuro alineado con Open Group
+   ============================================= */
+
+/* ─── Contenedor principal ─── */
+.b24-form-wrapper {
+    max-width: 100% !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25) !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+}
+
+.b24-form {
+    background: #11151C !important;
+    border-radius: 16px !important;
+    border: 1px solid rgba(115, 189, 30, 0.12) !important;
+    padding: 24px !important;
+}
+
+/* ─── Tipografía global ─── */
+.b24-form,
+.b24-form * {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+}
+
+/* ─── Título y descripción ─── */
+.b24-form-header-title {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    margin-bottom: 4px !important;
+    letter-spacing: -0.02em !important;
+}
+
+.b24-form-header-description {
+    font-size: 15px !important;
+    color: #a0a0b8 !important;
+    line-height: 1.6 !important;
+}
+
+.b24-form-header {
+    padding: 0 0 24px 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+    margin-bottom: 24px !important;
+}
+
+/* ─── Etiquetas de campos ─── */
+.b24-form-control-label {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #c8c8e0 !important;
+    padding: 0 0 6px 4px !important;
+    position: static !important; /* labels arriba, no flotantes */
+    transform: none !important;
+    display: block !important;
+    background: transparent !important;
+}
+
+/* Quitar el efecto flotante que trae Bitrix por defecto */
+.b24-form-control:focus + .b24-form-control-label,
+.b24-form-control-not-empty + .b24-form-control-label {
+    font-size: 14px !important;
+    color: #c8c8e0 !important;
+    top: auto !important;
+    transform: none !important;
+}
+
+/* ─── Campos de entrada ─── */
+.b24-form-control-string .b24-form-control,
+.b24-form-control-text .b24-form-control,
+.b24-form-control-select .field-item,
+.b24-form-control-phone .b24-form-control,
+.b24-form-control-email .b24-form-control,
+.b24-form-control .b24-form-control {
+    height: 48px !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    padding: 0 16px !important;
+    background: #181c26 !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease !important;
+    box-shadow: none !important;
+}
+
+/* Focus */
+.b24-form-control-string .b24-form-control:focus,
+.b24-form-control-text .b24-form-control:focus,
+.b24-form-control-select .field-item:focus,
+.b24-form-control-phone .b24-form-control:focus,
+.b24-form-control-email .b24-form-control:focus,
+.b24-form-control .b24-form-control:focus {
+    border-color: #73bd1e !important;
+    box-shadow: 0 0 0 3px rgba(115, 189, 30, 0.15) !important;
+    outline: none !important;
+}
+
+/* Placeholder */
+.b24-form-control-string .b24-form-control::placeholder,
+.b24-form-control-text .b24-form-control::placeholder {
+    color: #6b7280 !important;
+    opacity: 1 !important;
+}
+
+/* ─── Textarea ─── */
+.b24-form-control-text .b24-form-control {
+    height: auto !important;
+    min-height: 100px !important;
+    padding: 14px 16px !important;
+    resize: vertical !important;
+}
+
+/* ─── Select / Dropdown ─── */
+.b24-form-control-select .field-item {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23c8c8e0' d='M6 8L0 0h12z'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 16px center !important;
+    padding-right: 40px !important;
+    cursor: pointer !important;
+}
+
+/* ─── Botón de envío ─── */
+.b24-form-btn {
+    background: #73bd1e !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    height: 52px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    transition: background 0.25s ease, transform 0.15s ease !important;
+    width: 100% !important;
+    letter-spacing: 0.01em !important;
+}
+
+.b24-form-btn:hover {
+    background: #8cd44a !important;
+    transform: translateY(-1px) !important;
+}
+
+.b24-form-btn:active {
+    transform: translateY(0) !important;
+}
+
+/* ─── Casillas de verificación (checkbox) ─── */
+.b24-form-control-agreement input[type="checkbox"] {
+    width: 18px !important;
+    height: 18px !important;
+    accent-color: #73bd1e !important;
+    border-radius: 4px !important;
+}
+
+.b24-form-field-agreement .b24-form-field-agreement-link {
+    font-size: 13px !important;
+    color: #a0a0b8 !important;
+    line-height: 1.5 !important;
+}
+
+.b24-form-field-agreement .b24-form-field-agreement-link a {
+    color: #73bd1e !important;
+    text-decoration: underline !important;
+}
+
+/* ─── Mensajes de error / validación ─── */
+.b24-form-control-requirement {
+    font-size: 12px !important;
+    color: #ef4444 !important;
+    padding-top: 4px !important;
+}
+
+/* ─── Scrollbar interno ─── */
+.b24-form-scrollable {
+    scrollbar-width: thin !important;
+    scrollbar-color: #73bd1e rgba(255, 255, 255, 0.06) !important;
+}
+
+/* ─── Ocultar mount points inactivos de Bitrix24 ─── */
+/* Estos divs se inyectan al final del body y no deben tener estilo visible */
+div[id^="b24-window-mount"] {
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+#b24-window-mount-empty {
+    display: none !important;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+    .b24-form {
+        padding: 20px 16px !important;
+    }
+
+    .b24-form-header-title {
+        font-size: 20px !important;
+    }
+
+    .b24-form-btn {
+        height: 48px !important;
+        font-size: 15px !important;
+    }
+}
+
+/* ─── Reducir espacio entre campos ─── */
+.b24-form-field {
+    margin-bottom: 10px !important;
+}
+
+@media (min-width: 992px) {
+    .b24-form-wrapper form {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        grid-auto-flow: dense !important;
+        gap: 10px 32px !important;
+        align-items: start !important;
+    }
+
+    /* Hacer que los wrappers intermedios sean transparentes
+       para que .b24-form-field sea el grid item directo */
+    .b24-form-wrapper form > div {
+        display: contents !important;
+    }
+
+    .b24-form-wrapper .b24-form-field {
+        width: 100% !important;
+        margin-bottom: 0 !important;
+    }
+
+    /* Columna izquierda */
+    .b24-form-field-name,
+    .b24-form-field-last-name,
+    .b24-form-field-phone,
+    .b24-form-field-email,
+    .b24-form-field-company-name,
+    .b24-form-field-double {
+        grid-column: 1 !important;
+    }
+
+    /* Columna derecha */
+    .b24-form-field-string,
+    .b24-form-field-list,
+    .b24-form-field-agreement {
+        grid-column: 2 !important;
+    }
+
+    /* Botón al ancho completo */
+    .b24-form-btn-container {
+        grid-column: 1 / -1 !important;
+    }
+}
+
+/* ─── Modal: que el Bitrix herede el grid de 2 columnas ─── */
+.og-contact-modal .b24-form-wrapper form {
+    display: block !important;
+}
+
+@media (min-width: 992px) {
+    .og-contact-modal .b24-form-wrapper form {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 10px 32px !important;
+        align-items: start !important;
+    }
+
+    .og-contact-modal .b24-form-wrapper form > div {
+        display: contents !important;
+    }
+
+    .og-contact-modal .b24-form-wrapper .b24-form-field {
+        width: 100% !important;
+        margin-bottom: 0 !important;
+    }
+
+    .og-contact-modal .b24-form-field-name,
+    .og-contact-modal .b24-form-field-last-name,
+    .og-contact-modal .b24-form-field-phone,
+    .og-contact-modal .b24-form-field-email,
+    .og-contact-modal .b24-form-field-company-name,
+    .og-contact-modal .b24-form-field-double {
+        grid-column: 1 !important;
+    }
+
+    .og-contact-modal .b24-form-field-string,
+    .og-contact-modal .b24-form-field-list,
+    .og-contact-modal .b24-form-field-agreement {
+        grid-column: 2 !important;
+    }
+
+    .og-contact-modal .b24-form-btn-container {
+        grid-column: 1 / -1 !important;
+    }
+}

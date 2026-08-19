@@ -1,0 +1,41 @@
+# ============================================================
+#  SECRETOS / CREDENCIALES — NUNCA publicar
+# ============================================================
+smtp-config.php
+mail-home.php
+admin/config.php
+
+# ============================================================
+#  Proyectos ajenos al sitio / backups / instaladores
+# ============================================================
+Backups.eventos/
+eventos.opengroupsa.com/
+PHPMailer/
+Repository/
+_backup/
+
+# ============================================================
+#  Documentos internos del cliente
+# ============================================================
+archivos/
+
+# ============================================================
+#  Config editor + basura
+# ============================================================
+.vscode/
+*.backup
+*.working
+*.bak
+*.orig
+
+# ============================================================
+#  CSS basura / no usado en producción
+# ============================================================
+assets/css/blog.css
+assets/css/og-counters.css
+assets/css/open-group.min.css
+
+# ============================================================
+#  Post demo (Lorem Ipsum) — no publicar
+# ============================================================
+blog/data/posts/where-can-i-get-some.json

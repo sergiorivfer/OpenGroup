@@ -1,0 +1,48 @@
+<!-- ============ MODAL CONTACTO OG ============ -->
+         
+        <div class="og-contact-modal" id="og-contact-modal" aria-hidden="true">
+        <!-- fondo oscuro -->
+        <div class="og-contact-modal__overlay js-og-contact-close"></div>
+
+        <!-- panel -->
+        <div class="og-contact-modal__panel" role="dialog" aria-modal="true" aria-labelledby="og-contact-modal-title">
+            <button class="og-contact-modal__close js-og-contact-close" type="button" aria-label="Cerrar">
+            <i class="fa-light fa-xmark"></i>
+            </button>
+
+            <div class="og-contact-modal__body">
+            <!-- si quieres título dentro del modal -->
+            <!--
+            <div class="section-heading text-center mb-40">
+                <h4 class="sub-heading after-none">Contáctenos</h4>
+                <h2 class="section-title" id="og-contact-modal-title">Cuéntenos sobre su necesidad</h2>
+            </div>
+            -->
+
+            <div class="blog-contact-form form-2">
+                <div class="request-form">
+
+                <!-- 🔁 FORMULARIO BITRIX24 -->
+                <div class="bitrix-form-wrapper">
+                                            <script>
+                            window.addEventListener('b24:onFormSubmit', function() {
+                                if (window.dataLayer) {
+                                    window.dataLayer.push({event: 'bitrix_form_submit'});
+                                }
+                            });
+                            </script>                            <script data-b24-form="inline/41/2v3voc" data-skip-moving="true">
+                (function(w,d,u){
+                    var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+                    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+                })(window,document,'https://cdn.bitrix24.es/b28586235/crm/form/loader_41.js');
+                </script>
+                </div>
+                <!-- 🔁 /FORMULARIO BITRIX -->
+                </div>
+            </div>
+
+            <div id="form-status-home-modal" style="margin-top:12px; font-size:14px;"></div>
+            </div>
+        </div>
+        </div>
+        <!-- ============ /MODAL CONTACTO OG ============ -->
