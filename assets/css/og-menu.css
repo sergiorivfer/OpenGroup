@@ -1,10 +1,10 @@
-﻿/* --- Prevenir scroll horizontal global --- */
+/* --- Prevenir scroll horizontal global --- */
 html {
     overflow-x: hidden;
 }
 
 /* ============================================================
-   OG-MENU.CSS â€” MenÃº principal OpenGroup
+   OG-MENU.CSS â€” MenÃº principal Open Group
    Estilo inspirado en eventos.opengroupsa.com
    Scroll nativo, sin dependencias externas
    ============================================================ */

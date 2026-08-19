@@ -1,5 +1,5 @@
 /* ============================================================
-   OG-MENU.JS — Menú principal OpenGroup
+   OG-MENU.JS — Menú principal Open Group
    Sticky header, sidebar, mobile, logo rotation
    Scroll nativo (sin Lenis, sin ScrollSmoother)
    ============================================================ */

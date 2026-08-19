@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title>Login — Blog OpenGroup</title>
+    <title>Login — Blog Open Group</title>
     <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
     <link rel="shortcut icon" type="image/png" href="https://www.opengroupsa.com/assets/img/logo/logos/faviconopen.png" />
     <style>
@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="login-box">
-        <h2>Blog OpenGroup</h2>
+        <h2>Blog Open Group</h2>
         <p>Acceso exclusivo para editores</p>
 
         <?php if ($error): ?>

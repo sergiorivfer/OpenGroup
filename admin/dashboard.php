@@ -41,7 +41,7 @@ function admin_date($date) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title>Dashboard — Blog OpenGroup</title>
+    <title>Dashboard — Blog Open Group</title>
     <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
     <link rel="shortcut icon" type="image/png" href="https://www.opengroupsa.com/assets/img/logo/logos/faviconopen.png" />
     <style>
@@ -249,7 +249,7 @@ function admin_date($date) {
 <body>
     <header class="admin-header">
         <div class="logo-area">
-            Blog <span>OpenGroup</span>
+            Blog <span>Open Group</span>
         </div>
         <div class="user-area">
             <?php echo htmlspecialchars($_SESSION['admin_username'] ?? 'admin'); ?>
