@@ -1,5 +1,11 @@
 RewriteEngine On
 
+# ===== Markdown negotiation for AI agents =====
+# Serve markdown when an agent requests Accept: text/markdown
+RewriteCond %{HTTP:Accept} text/markdown [NC]
+RewriteCond %{REQUEST_URI} !\.(css|js|png|jpe?g|webp|gif|svg|ico|woff2?|ttf|eot|xml|json|pdf|php)$ [NC]
+RewriteRule ^(.*)$ md.php?path=$1 [L,QSA]
+
 # Redirigir /inicio a / (evitar duplicados)
 Redirect 301 /inicio https://www.opengroupsa.com/
 
@@ -20,6 +26,8 @@ RewriteRule ^(.+?)/?$ $1.html [L]
     Header set Cache-Control "no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
     Header set Expires 0
+    # Link headers for AI agent discovery (RFC 8288)
+    Header set Link '<https://www.opengroupsa.com/.well-known/ai-catalog.json>; rel="ai-catalog", <https://www.opengroupsa.com/.well-known/agent-skills/index.json>; rel="agent-skills", <https://www.opengroupsa.com/sitemap.xml>; rel="sitemap"'
 </IfModule>
 
 # php -- BEGIN cPanel-generated handler, do not edit
