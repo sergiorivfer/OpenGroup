@@ -4,5 +4,18 @@
     "name": "Open Group SAS",
     "url": "https://www.opengroupsa.com"
   },
-  "entries": []
+  "entries": [
+    {
+      "urn": "urn:air:opengroupsa.com:site:home",
+      "displayName": "Open Group SAS — Integrador Tecnológico Colombia",
+      "type": "text/html",
+      "url": "https://www.opengroupsa.com/",
+      "representativeQueries": [
+        "integrador tecnológico Colombia",
+        "infraestructura de nube Colombia",
+        "ciberseguridad empresarial Colombia",
+        "soluciones multicloud empresas"
+      ]
+    }
+  ]
 }

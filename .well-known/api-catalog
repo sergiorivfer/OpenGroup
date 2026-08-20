@@ -1,0 +1,16 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.opengroupsa.com/",
+      "service-doc": [
+        { "href": "https://www.opengroupsa.com/llms.txt", "type": "text/plain" }
+      ],
+      "service-desc": [
+        { "href": "https://www.opengroupsa.com/llms.txt", "type": "text/plain" }
+      ],
+      "status": [
+        { "href": "https://www.opengroupsa.com/", "type": "text/html" }
+      ]
+    }
+  ]
+}

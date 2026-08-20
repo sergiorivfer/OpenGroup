@@ -1,4 +1,12 @@
 {
   "$schema": "https://agentskills.io/schema/v0.2.0.json",
-  "skills": []
+  "skills": [
+    {
+      "name": "opengroup-services",
+      "type": "knowledge",
+      "description": "Información de los servicios TIC de Open Group SAS (infraestructura, ciberseguridad, comunicaciones, multicloud, centro de servicios).",
+      "url": "https://www.opengroupsa.com/.well-known/agent-skills/opengroup-services.md",
+      "sha256": "a98788ffad2dacdd0501fe338626ac490b89396640e1537833c79534e8a08113"
+    }
+  ]
 }
