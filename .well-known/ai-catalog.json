@@ -6,7 +6,7 @@
   },
   "entries": [
     {
-      "urn": "urn:air:opengroupsa.com:site:home",
+      "identifier": "urn:air:opengroupsa.com:site:home",
       "displayName": "Open Group SAS — Integrador Tecnológico Colombia",
       "type": "text/html",
       "url": "https://www.opengroupsa.com/",
